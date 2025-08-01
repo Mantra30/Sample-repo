@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HealthHive - Healthcare Made Simple</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9fafa;
+      color: #2c2c2c;
+    }
+    header {
+      background-color: #00a699;
+      padding: 15px 30px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.practostatic.com/practo-homepage/bg-hero.svg') no-repeat right center;
+      background-size: contain;
+      padding: 80px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .hero-content {
+      max-width: 600px;
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+      line-height: 1.5;
+    }
+    .search-box {
+      display: flex;
+      max-width: 600px;
+      margin-top: 10px;
+    }
+    .search-box input[type="text"] {
+      flex: 1;
+      padding: 12px;
+      font-size: 16px;
+      border: 2px solid #00a699;
+      border-right: none;
+      border-radius: 4px 0 0 4px;
+      outline: none;
+    }
+    .search-box button {
+      background-color: #00a699;
+      border: 2px solid #00a699;
+      color: white;
+      padding: 12px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 0 4px 4px 0;
+      transition: background-color 0.3s ease;
+    }
+    .search-box button:hover {
+      background-color: #00806f;
+    }
+    section.features {
+      display: flex;
+      justify-content: space-around;
+      margin: 60px 20px;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .feature-card {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      text-align: center;
+    }
+    .feature-card img {
+      width: 60px;
+      margin-bottom: 20px;
+    }
+    .feature-card h3 {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+    .feature-card p {
+      font-size: 16px;
+      color: #555;
+    }
+    footer {
+      background-color: #333;
+      color: #bbb;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>HealthHive</h1>
+  <nav>
+    <a href="#">For Patients</a>
+    <a href="#">For Doctors</a>
+    <a href="#">For Clinics</a>
+    <a href="#">More</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="hero-content">
+    <h2>Book Doctor Appointments</h2>
+    <p>Find and book appointments with top doctors in your city, get instant confirmation and free reminders.</p>
+    <div class="search-box">
+      <input type="text" placeholder="Search for doctors, clinics, hospitals..." />
+      <button>Search</button>
+    </div>
+  </div>
+  <img src="https://images.practostatic.com/practo-homepage/doctor-illustration.svg" alt="Doctor Illustration" style="max-width: 300px;">
+</div>
+
+<section class="features">
+  <div class="feature-card">
+    <img src="https://img.icons8.com/ios-filled/50/00a699/stethoscope.png" alt="Doctors" />
+    <h3>Find Doctors</h3>
+    <p>Search by speciality, location and availability to find your perfect doctor.</p>
+  </div>
+  <div class="feature-card">
+    <img src="https://img.icons8.com/ios-filled/50/00a699/clinic.png" alt="Clinics" />
+    <h3>Clinics & Hospitals</h3>
+    <p>Book appointments at trusted clinics and hospitals near you.</p>
+  </div>
+  <div class="feature-card">
+    <img src="https://img.icons8.com/ios-filled/50/00a699/calendar.png" alt="Appointments" />
+    <h3>Instant Confirmation</h3>
+    <p>Get instant appointment confirmation with reminders on your phone.</p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 HealthHive. All rights reserved.
+</footer>
+
+</body>
+</html>
